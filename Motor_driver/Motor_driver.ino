@@ -10,7 +10,7 @@ int PR = 2;//Enable pin right
 
 void setup() {
   // put your setup code here, to run once:
-pinMode(LB, OUTPUT);
+  pinMode(LB, OUTPUT);
   pinMode(LF, OUTPUT);
   pinMode(RB, OUTPUT);
   pinMode(RF, OUTPUT);
