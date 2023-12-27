@@ -2,10 +2,10 @@ int LB = A1;
 int LF = A2;
 int RB = A3;
 int RF = A0;
-int IR = 11;
-int IL = 12;
-int PL = 3;
-int PR = 10;
+int IR = 11;//right IR sensor
+int IL = 12;//left IR sensor
+int PL = 3;//Right pwm
+int PR = 10;//Left pwm
 
 
 
