@@ -1,11 +1,3 @@
-// include the library code:
-#include <LiquidCrystal.h>
-#include<Wire.h>
-#include <Wire.h>
-
-
-LiquidCrystal lcd(8,9,4,5,6,7);
-
 int LB = A1;
 int LF = A2;
 int RB = A3;
@@ -20,7 +12,6 @@ int PR = 10;
 void setup() {
   // set up the LCD's number of columns and rows:
   Serial.begin(9600);
-  lcd.begin(16, 2);
   pinMode(LB, OUTPUT);
   pinMode(LF, OUTPUT);
   pinMode(RB, OUTPUT);
