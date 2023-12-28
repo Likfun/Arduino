@@ -6,6 +6,7 @@ int LB = A1;
 int LF = A2;
 int RB = A3;
 int RF = A0;
+int t;
 
 void setup()
 {
