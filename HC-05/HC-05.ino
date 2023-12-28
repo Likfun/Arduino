@@ -20,27 +20,27 @@ void setup()
 }
 
 void loop()
-{
+{ value=Serial.read();
   printf("\n");
-  if(mySerial==49)//MOVE FRONT
+  if(value==49)//MOVE FRONT
   digitalWrite(LB,LOW);
   digitalWrite(LF,HIGH);
   digitalWrite(RB,LOW);
   digitalWrite(RF,HIGH);
 
-   if(mySerial==50)//MOVE BACK
+   if(value==50)//MOVE BACK
   digitalWrite(LB,HIGH);
   digitalWrite(LF,LOW);
   digitalWrite(RB,HIGH);
   digitalWrite(RF,LOW);
   
-   if(mySerial==51)//TURN LEFT
+   if(value==51)//TURN LEFT
   digitalWrite(LB,LOW);
   digitalWrite(LF,HIGH);
   digitalWrite(RB,LOW);
   digitalWrite(RF,LOW);
 
-   if(mySerial==52)//TURN RIGHT
+   if(value==52)//TURN RIGHT
   digitalWrite(LB,LOW);
   digitalWrite(LF,LOW);
   digitalWrite(RB,LOW);
