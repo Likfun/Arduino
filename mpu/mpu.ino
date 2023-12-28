@@ -1,7 +1,6 @@
 // include the library code:
 #include <LiquidCrystal.h>
 #include<Wire.h>
-#include <Wire.h>
 //MPU
 float RateRoll, RatePitch, RateYaw;
 float AccX, AccY, AccZ;
